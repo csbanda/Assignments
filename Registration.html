@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Registration form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <div class="container">
+     <p class="a">Already have an account </><a href="./Login.html">Login Here</a></p>
+    <h4 class="form-title">Registration Page</h4>
+    <form action="./success.html">
+      <div class="main-user-info">
+        <div class="user-input-box">
+    <label for="FirstName">First Name</label>
+          <input type="text"
+            required
+            id="FirstName"
+            name="FirstName"
+            placeholder="Enter First Name"/>
+      </div>
+
+         <div class="user-input-box">
+    <label for="LastName">Last Name</label>
+          <input type="text"
+            required
+            id="LastName"
+            name="LastName"
+            placeholder="Enter Last Name"/>
+          
+        </div >
+         <div class="user-input-box">
+    <label for="PhoneNumber">Phone Number</label>
+          <input type="number"
+            required
+            id="PhoneNumber"
+            name="PhoneNumber"
+            placeholder="Enter Phone Number"/>
+        </div >
+         <div class="user-input-box">
+    <label for="email">Email Address</label>
+          <input type="email"
+            required
+            id="email"
+            name="email"
+            placeholder="Enter Email Address"/>
+        </div >
+       <div class="gender-details">
+         <label for="gender"> Select your gender</label>
+<select name="gender">
+	<option value="none" selected>Gender</option>
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+	<option value="other">other</option>
+</select>     
+       </div>
+        <div class="user-input-box">
+         <label
+for="DateOfBirth">Date of Birth</label>
+          <input type="date"
+            required
+            id="DateOfBirth"
+            name="DateOfBirth"
+            placeholder="Select Date of Birth"/>
+        </div >
+   <div class="user-input-box">
+    <label for="Password">Password</label>
+          <input type="password"
+            required
+            id="Password"
+            name="Password"
+           placeholder="Enter your Password"/>
+        </div > 
+        <div class="user-input-box">
+    <label for="ComfirmPassword">Confirm Password</label>
+          <input type="password"
+            required
+            id="ComfirmPassword"
+            name="ComfirmPassword"
+            placeholder="Confirm Password"/>
+        </div >
+
+         <div class="submit-button">
+        <input type ="submit"
+            id="SubmitButton"
+            value="Submit"/>
+         
+         </div >
+      </div >
+      <div class="fav-color">
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000">
+      </div>  
+    </form>
+    </div>
+</body>
+</html>
+    
